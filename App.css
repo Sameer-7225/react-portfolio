@@ -1,0 +1,167 @@
+tml {
+  scroll-behavior: smooth;
+}
+
+/* ===== GLOBAL ===== */
+.app {
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dark {
+  background-color: #0f172a;
+  color: #e5e7eb;
+}
+
+.light {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+.accent {
+  color: #38bdf8;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  position: sticky;
+  top: 0;
+  background: inherit;
+}
+
+.logo {
+  color: #38bdf8;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-right {
+  display: flex;
+  gap: 10px;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: inherit;
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 70px;
+  right: 40px;
+  background: #111827;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mobile-menu a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+/* ===== HERO ===== */
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 100px 60px;
+  gap: 40px;
+}
+
+.hero-left {
+  flex: 1;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-right img {
+  width: 350px;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+/* ===== SECTIONS ===== */
+.section {
+  padding: 80px 60px;
+}
+
+/* ===== BUTTONS ===== */
+.btn {
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.primary {
+  background-color: #38bdf8;
+  border: none;
+  color: #0f172a;
+}
+
+.secondary {
+  background: transparent;
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+}
+
+.contact-btn {
+  margin-top: 20px;
+}
+
+/* ===== SKILLS ===== */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.skill-card {
+  padding: 12px 20px;
+  border-radius: 6px;
+}
+
+.dark-card {
+  background-color: #111827;
+  color: #e5e7eb;
+}
+
+.light-card {
+  background-color: #e5e7eb;
+  color: #0f172a;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  padding: 30px;
+  text-align: center;
+}
